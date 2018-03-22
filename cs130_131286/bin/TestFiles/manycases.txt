@@ -1,0 +1,31 @@
+
+some bad numbers follow:
+
+1.+2
+5.5ea
+5.5e-x
+
+valid:
++ - * / % ** ( ) = < > : , . ' " </
++-*/%**()=<>:,.'"</
+
+there are thee invalid characters here:
+
+abc$def!ghi&xyz
+
+numbers123between1.1words
+<tag
+< notAtag
+
+<!-- this is a comment
+-->
+
+<!- this is not, in fact there is an
+invalid character
+-->
+
+unterminated comment coming...
+
+<!-- i wonder how you will handle this ...
+-
+
